@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -10,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="assets\style.css">
+    <link rel="stylesheet" href="assets\css\style.css">
     <title>Philippe Dwaine</title>
 </head>
 
@@ -22,7 +23,7 @@
 
             <li class="nav-link">
                 <a href="#home" class ="active">
-                    <!-- <i class='bx bxs-home'></i> -->
+                    <i class='bx bxs-home'></i>
                     <span>Home</span>
                 </a>
             </li>
@@ -31,7 +32,7 @@
 
             <li class="nav-link">
                 <a href="#about">
-                    <!-- <i class='bx bxs-user' ></i> -->
+                    <i class='bx bxs-user' ></i>
                     <span>About</span>
                 </a>
             </li>
@@ -40,7 +41,7 @@
 
             <li class="nav-link">
                 <a href="#projects">
-                    <!-- <i class='bx bxs-folder-open' ></i> -->
+                    <i class='bx bxs-folder-open' ></i>
                     <span>Projects</span>
                 </a>
             </li>
@@ -49,28 +50,34 @@
 
             <li class="nav-link">
                 <a href="#contacts">
-                    <!-- <i class='bx bxs-contact' ></i> -->
+                    <i class='bx bxs-contact' ></i>
                     <span>Contacts</span>
                 </a>
-            </li>
+            </li>   
 
         </ul>
 
     </nav>
 
+    <div id="bg"></div>
+
     <div class="container">
 
         <section class="hero" id="home">
-            <span class="circle-1"></span>
-            <span class="circle-2"></span>
-            <span class="circle-3"></span>
             <h1>Hello, I'm</h1>
-            <h2>Philippe Dwaine</h2>
+            <h2 class="auto-type">Philippe Dwaine</h2>
             <p>A student programmer, on a journey to become a professional.</p>
         </section>
 
         <section class="about" id="about">
-            <p>About</p>
+            <div>
+                <p><span class="about-me">About Me</span><br>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare eros lacus. Integer nibh neque, consequat quis rutrum sed, ultricies et ex. In hac habitasse platea dictumst. Donec pretium vestibulum mauris a pellentesque. Nam lacus neque, maximus consequat hendrerit nec, ultrices a sapien.
+                    <br>
+                    <br>Integer ac pellentesque dui. Vivamus sapien ipsum, eleifend vitae interdum eget, vehicula ac quam. Nunc turpis lacus, mattis nec nunc non, cursus pulvinar tortor. Etiam ullamcorper finibus rhoncus. Aliquam consequat efficitur justo, sit amet tempor dui rutrum nec. Phasellus purus ante, accumsan fermentum facilisis vitae, laoreet ut quam. Vivamus id ultricies felis, eget viverra nunc. Morbi a nisi nunc.
+                </p>
+                <img src="assets\images\Profile-Pic.png" alt="Profile">
+            </div>
         </section>
         
         <section class="projects" id="projects">
@@ -83,7 +90,9 @@
 
     </div>
 
-    <script src="assets\script.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
