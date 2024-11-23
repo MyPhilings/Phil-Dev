@@ -15,6 +15,7 @@
 }
 
 body {
+    scroll-behavior: smooth;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -142,7 +143,7 @@ section {
     width: 50vh;
     height: 50vh;
     border: 5px solid var(--body-color);
-    border-radius: 30% 70% 30% 70% / 70% 25% 75% 30% ;
+    border-radius: 5% ;
 }
 
 /*  */
